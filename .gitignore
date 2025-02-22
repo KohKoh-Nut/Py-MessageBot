@@ -1,0 +1,60 @@
+# Byte-compiled / intermediate files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+*.venv
+*.env
+
+# Ignore logs and temp files
+logs/
+*.log
+*.tmp
+
+# IDE/editor-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore dependencies installed via pip
+*.egg-info/
+dist/
+build/
+*.spec
+
+# Ignore large model files and datasets
+*.bin
+*.ckpt
+*.h5
+*.tflite
+*.onnx
+
+# Ignore Hugging Face cache
+~/.cache/huggingface/
+
+# Ignore screenshots and captured images
+ReplyBot/captured_images/
+*.png
+*.jpg
+*.jpeg
+
+# Ignore compiled Cython files
+*.so
+
+# Ignore executable files
+*.exe
+*.bat
+
+# Ignore any user-generated config files
+config.json
+config.yaml

@@ -1,0 +1,7 @@
+torch
+transformers
+numpy
+opencv-python
+pytesseract
+pyautogui
+tkinter
